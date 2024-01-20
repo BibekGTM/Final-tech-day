@@ -103,3 +103,7 @@ div.scrollmenu a:hover {
     width: 100%;
     border-radius: 15px;
 }
+.dark-mode{
+    background-color: black;
+    color:white;
+}
