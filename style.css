@@ -4,3 +4,33 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+div.scrollmenu { 
+    background-color:#354B5E; 
+    overflow: auto; 
+    white-space: nowrap; 
+  } 
+
+  div.scrollmenu a { 
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px; 
+    text-decoration: none; 
+  } 
+
+  div.scrollmenu a:hover { 
+    background-color: #777; 
+  } 
+
+.boxed-text { 
+  background: linear-gradient(to left, #8ce0ff, #A8D0E6);
+   padding: 10px; 
+   border-radius: 10px;
+    border: 1px solid #969696;
+     margin: 10px;
+      box-shadow: 2px 2px 5px #aaa } 
+
+.boxed-text:hover {
+   transform: scale(1.05);
+   transition: transform 0.3s ease-in-out; }
