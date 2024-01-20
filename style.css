@@ -1,11 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 body {
-    font-family: &#39;Arial&#39;, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
+    heihgt
+    margin: 0;
+    padding: 0;
+    background-color: #A8D0E6;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+ }
+ .header {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #F76C6C;
+ }
+ .title {
+    margin-top: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: center;
+ }
+ .earth-img, .laptop-img {
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+    margin-top: 50%;
 
-div.scrollmenu { 
+ }
+ div.scrollmenu { 
     background-color:#354B5E; 
     overflow: auto; 
     white-space: nowrap; 
@@ -19,18 +42,64 @@ div.scrollmenu {
     text-decoration: none; 
   } 
 
-  div.scrollmenu a:hover { 
+div.scrollmenu a:hover { 
     background-color: #777; 
-  } 
+} 
 
 .boxed-text { 
-  background: linear-gradient(to left, #8ce0ff, #A8D0E6);
-   padding: 10px; 
-   border-radius: 10px;
+    background: linear-gradient(to left, #8ce0ff, #A8D0E6);
+    padding: 10px; 
+    border-radius: 10px;
     border: 1px solid #969696;
-     margin: 10px;
-      box-shadow: 2px 2px 5px #aaa } 
+    margin: 10px;
+    box-shadow: 2px 2px 5px #aaa
+} 
+.home, .problems, .solution, .about {
+    cursor: pointer;
+}
+.home:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
 
+.problems:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 7%; }
+
+.solutions:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10%;
+}
+
+.about:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+  
 .boxed-text:hover {
    transform: scale(1.05);
-   transition: transform 0.3s ease-in-out; }
+   transition: transform 0.3s ease-in-out;
+}
+.home-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.earth-img img {
+    width: 100%;
+    border-radius: 15px;
+}
