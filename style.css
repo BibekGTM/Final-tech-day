@@ -4,3 +4,21 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+.boxed-text { 
+  background: linear-gradient(to left, #8ce0ff, #A8D0E6);
+   padding: 10px; 
+   border-radius: 10px;
+    border: 1px solid #969696;
+     margin: 10px;
+      box-shadow: 2px 2px 5px #aaa } 
+
+.boxed-text:hover {
+   transform: scale(1.05);
+   transition: transform 0.3s ease-in-out; }
+
+   div.scrollmenu { 
+    background-color:#354B5E; 
+    overflow: auto; 
+    white-space: nowrap; 
+  } 
